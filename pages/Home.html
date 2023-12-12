@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecolife</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+  
+<style>
+  @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+     
+      .search {
+        position: relative;
+        color: #aaa;
+        font-size: 16px;
+      }
+      .search {
+        display: inline-block;
+      }
+      .search input {
+        width: 250px;
+        height: 32px;
+        border: 1px solid #aaa;
+      }
+      .search input {
+        text-indent: 32px;
+      }
+      .search .fa-search {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+      .search .fa-search {
+        left: auto;
+        right: 50px;
+      }
+
+      .navbar .nav-item {
+      margin-right: 10px; /* Adjust the margin as desired */
+    }
+    /* ***************************************************************************************************************************** */
+   
+    @media only screen and (max-width: 500px) and (min-width: 320px) {
+      .heading1{
+        width: 20% !important;
+        text-align:start !important;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+      .heading2{
+        width: 80% !important;
+        text-align:end !important;
+        font-size: 12px;
+        padding-right: 5px;
+      }
+      .heading3{
+        
+        text-align: right !important;
+        
+        
+      } 
+      
+.logo{
+  height: 30px !important;
+     width: 80px !important;
+   
+     padding: 1px !important;
+
+}
+.search-field{
+ display: none;
+     
+}
+.search-icon{
+  
+  display: none;
+  
+}
+.cart{
+  height: 40px !important;
+  width: 20px !important;
+  padding: 1px !important;
+  text-align:end !important;
+}
+
+.cart1{
+  width: 50%;
+  text-align: right !important;
+}
+
+
+.home-bar{
+  padding: 0px !important;
+}
+
+.feacher-dwn{
+  flex-direction: column !important;
+}
+
+.body-card div{
+
+  width: 100% !important;
+  padding:0% !important;
+  margin:0% !important;
+  
+}
+
+.deal-day {
+  flex-direction: column;
+  
+}
+
+.deal-day h5 {
+  font-size:25px;
+}
+
+.deal-card {
+  width: 100% !important;
+}
+
+.indoor-plants{
+  flex-direction: column;
+
+}
+
+.flowering-plants{
+  flex-direction: column;
+}
+.flowering-plants div{
+
+width: 100% !important;
+padding:0% !important;
+margin:0% !important;
+
+}
+
+.flowering-plants h5 {
+  font-size:25px;
+}
+.flowers-2nd{
+  
+width: 100% !important;
+padding:0% !important;
+margin:0% !important;
+padding-top: 10px !important;
+
+}
+.trendy-card{
+  flex-direction: column;
+}
+
+.clients-love{
+  flex-direction: column;
+  width: 100% !important;
+  padding: 0% !important;
+  margin: 0% !important;
+}
+
+.clients-love div{
+  flex-direction: column;
+  width: 100% !important;
+  padding: 0% !important;
+  margin: 0% !important;
+}
+
+.footer-card{
+  flex-direction: column;
+  width: 100% !important;
+  padding: 0% !important;
+  margin: 0% !important;
+  text-align: center !important;
+  
+}
+.footer-card h5{
+  text-align: start !important;
+}
+}
+
+
+
+
+
+
+
+      
+
+</style>
+</head>
+<body>
+
+    <!-- Heading  -->
+     
+<div  class="  w-100 " style="background-color:#066c41; color: aliceblue; display: flex;  height:40px;">
+  <div class="text-center heading1 w-50 pt-2 ">Eng | Ban </div>
+  <div class="w-50 text-center pt-2  heading2" > 
+    <i class="fa-regular fa-user"></i> <a style="text-decoration: none; color: aliceblue;" href="Login.html">Sign in | </a>  
+    <i class="fa-sharp fa-light fa-code-compare"></i> Contact Number  | 
+    <i class="fa-regular fa-heart"></i> Wishlist </div>
+   
+</div>
+
+<!-- navbar  -->
+
+ <div class="container d-flex  "; >
+
+<div class="ps-5 pt-3 w-50  heading3"> <img class="logo" src="/Picture/asset 2.jpeg" alt=""></div>
+
+<div class="search pt-3  "   >
+  
+    <input class="form-control rounded-pill  search-field" style="width: 450px; height: 40px;" type="search" placeholder="Search" aria-label="Search">
+    <i class="fa fa-search pt-3 search-icon"></i>
+   
+</div>
+ 
+<div class="cart1"> <a class="text-decoration-none text-black" href="AddToCart.html"><i class="fa-solid fa-cart-shopping fa-beat pt-4 ps-3 " style="color: black;"></i>
+  <span class="fw-bold ps-2 cart2" style="color: #066C41;">Cart</span></a>
+ </div>
+  
+ </div>
+
+ <div class="pt-3 " >
+  <nav class="navbar navbar-expand-lg shadow-lg p-1 mb-2 bg-body rounded ;" >
+    <div class="container-fluid" >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars home-btn" style="color: #080808;"></i>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+        <a class="navbar-brand fw-bold home-bar" style="padding-left: 400px; color: #066c41;" href="Home.html">Home</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle fw-bold fs-5" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #066c41;">
+            Feature
+          </a> 
+        
+          <ul class="dropdown-menu " aria-labelledby="navbarDropdown" >
+           <div class="d-flex feacher-dwn" style="width: 550px; justify-content: space-between;">
+            <div>
+              <li><a class="dropdown-item " href="Feature.html"><span class="fw-bold fs-5 " style="color: green;">Catalog Product</span>  <br> <br>Product Type 1 <br>Product Type 2 <br>Product Type 3 <br> Product Type 4
+                
+              </a></li>
+            </div>
+            <div><li><a class="dropdown-item" href="#"><span class="fw-bold fs-5" style="color: green;">Catagory 2</span>  <br> <br> Horizontal <br> vartical <br> Glid 1 <br> Glid 2</a></li></div>
+            
+            <div><li><a class="dropdown-item" href="#"><span class="fw-bold" style="color: green;">Catagory 3 </span>  <br> <br> Filter Sidebar <br> filter Top <br> <span  class="fw-bold fs-5" style="color: green;"> Product Details</span>  <br>Type 1 <br>Type 2</a></li></div>
+           </div>
+          </ul>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle fw-bold fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #066c41;">
+            Plants
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Bonsai Plants</a></li>
+            <li><a class="dropdown-item" href="#">Flowering Plants</a></li>
+            <li><a class="dropdown-item" href="#">Foliage Plants</a></li>
+            <li><a class="dropdown-item" href="#">Indoor Plants</a></li>
+            <li><a class="dropdown-item" href="#">Outdoor Plants</a></li>
+           
+          </ul>
+        </li>
+        
+          
+          <li class="nav-item">
+            <a class="nav-link fw-bold fs-5" href="Contactus.html" style="color: #066c41;">Contact US</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link fw-bold fs-5" href="About.html" style="color: #066c41;">About US</a>
+          </li>
+         
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+ </div>
+
+<!-- BODY  -->
+
+
+<div class="container pt-3 pb-4">
+  
+  <div class="row row-cols-1 row-cols-md-3 g-4  body-card"  >
+    <div class="col  ">
+      <div class="card ">
+        <img   class="card-img-top " src="/Picture/asset 3.jpeg" alt="..."> 
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card ">
+        <img src="/Picture/asset 4.jpeg" class="card-img-top " alt="...">
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card ">
+        <img src="/Picture/asset 5.jpeg" class="card-img-top " alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 2nd pera  -->
+
+<h2 class="text-center pt-5 pb-3" >Deal of The Day</h2>
+
+<div class="d-flex  container deal-day "   >
+ <a href="cart-dtl.html" style="text-decoration: none !important; color:black;" >
+  <div class="col " >
+    <div class="card deal-card " style="width: 300px; border: none;">
+      <img src="/Picture/asset 7.jpeg" class="card-img-top   " alt="...">
+      </div>
+    <div>
+      <div class="card-body text-center ">
+        <h5 class="card-title ">MANUFACTURER 1</h5>
+        <p class="card-text  " >Small Decorative Obelisk</p>
+        <div class="pb-1 " >
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+        </div>
+      
+        <div>
+         <div class="">
+           <span class="text-decoration-line-through me-1"
+            >20000$ </span>
+           <span class="me-1" style="color: red; font-weight: bold"
+            >1800 $ </span>
+           <span  style="background-color: rgb(128, 29, 29); width: 350px; color: aliceblue; padding-left: 2%; padding-right: 2%;"
+            >-10% </span>
+          </span>
+         </div>
+         <div>
+          <span>Availibility :</span>
+          <span class="fw-bold" style="color: rgb(132, 132, 133)">899 In Stock</span>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </a>
+  <div class="col ">
+    <div class="card deal-card " style="width: 300px; border: none;">
+      <img   src="/Picture/asset 26.jpeg" class="card-img-top  " alt="...">
+      <div>
+        <div class="card-body text-center">
+          <h5 class="card-title" >MANUFACTURER 2</h5>
+          <p class="card-text ">Small Decorative Obelisk</p>
+          <div class="pb-1" >
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          </div>
+        
+          <div>
+           <div class="">
+             <span class="text-decoration-line-through me-1"
+              >20000$ </span>
+             <span class="me-1" style="color: red; font-weight: bold"
+              >1800 $ </span>
+             <span  style="background-color: rgb(128, 29, 29); width: 350px; color: aliceblue; padding-left: 2%; padding-right: 2%;"
+              >-10% </span>
+            </span>
+           </div>
+           <div>
+            <span>Availibility :</span>
+            <span class="fw-bold" style="color: rgb(132, 132, 133)">899 In Stock</span>
+           </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col ">
+    <div class="card deal-card " style="width: 300px; border: none;">
+      <img src="/Picture/asset 19.jpeg" class="card-img-top  " alt="...">
+      <div>
+        <div class="card-body text-center">
+          <h5 class="card-title">MANUFACTURER 3</h5>
+          <p class="card-text ">Small Decorative Obelisk</p>
+          <div class="pb-1" >
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          </div>
+        
+          <div>
+           <div class="">
+             <span class="text-decoration-line-through me-1"
+              >20000$ </span>
+             <span class="me-1" style="color: red; font-weight: bold"
+              >1800 $ </span>
+             <span  style="background-color: rgb(128, 29, 29); width: 350px; color: aliceblue ; padding-left: 2%; padding-right: 2%;"
+              >-10% </span>
+            </span>
+           </div>
+           <div>
+            <span>Availibility :</span>
+            <span class="fw-bold" style="color: rgb(132, 132, 133)">899 In Stock</span>
+           </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col">
+    <div class="card deal-card" style="width: 300px; border: none;">
+      <img  src="/Picture/asset 10.jpeg" class="card-img-top  " alt="...">
+      <div>
+        <div class="card-body text-center">
+          <h5 class="card-title">MANUFACTURER 4</h5>
+          <p class="card-text " >Remedial Aloe Vera Plant</p>
+          <div class="pb-1" >
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          </div>
+        
+          <div>
+           <div class="">
+             <span class="text-decoration-line-through me-1"
+              >20000$ </span>
+             <span class="me-1" style="color: red; font-weight: bold"
+              >1800 $ </span>
+             <span  style="background-color: rgb(128, 29, 29); width: 350px; color: aliceblue ;padding-left: 2%; padding-right: 2%;"
+              >-10% </span>
+            </span>
+           </div>
+           <div>
+            <span>Availibility :</span>
+            <span class="fw-bold" style="color: rgb(132, 132, 133)">899 In Stock</span>
+           </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+  
+</div>
+
+<!-- 3rd pera  -->
+
+<h3 class="text-center pt-5 pb-4">Indoor Plants</h3>
+
+<div class="d-flex pt-5 pb-2 indoor-plants container" style="border-top: 1px solid black; border-bottom: 1px solid rgb(9, 9, 9); justify-content: space-between;" >
+  <div class="d-flex " >
+    <div>
+<img style="height: 155px; " src="/Picture/asset 12.jpeg" alt="">
+    </div>
+    <div>
+      <div class="card-body text-center">
+        <h5 class="card-title">MANUFACTURER 5</h5>
+        <p class="card-text ">Small Decorative Obelisk</p>
+        <div class="pb-1" >
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="d-flex " >
+    <div>
+<img style="height: 155px; " src="/Picture/asset 27.jpeg" alt="">
+    </div>
+    <div>
+      <div class="card-body text-center">
+        <h5 class="card-title">MANUFACTURER 5</h5>
+        <p class="card-text ">Small Decorative Obelisk</p>
+        <div class="pb-1" >
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="d-flex "  >
+    <div>
+<img style="height: 155px; " src="/Picture/asset 28.jpeg" alt="">
+    </div>
+    <div>
+      <div class="card-body text-center" >
+        <h5 class="card-title">MANUFACTURER 5</h5>
+        <p class="card-text ">Small Decorative Obelisk</p>
+        <div class="pb-1" >
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<!-- 4th pera  -->
+
+<h2 class="text-center pt-5">Flowering Plants</h2>
+<div class="d-flex  container flowering-plants"   >
+  <div class="col" >
+    <div class="card " style="width: 300px; border: none; ">
+      <img src="/Picture/asset 25.jpeg" class="card-img-top  " alt="...">
+      </div>
+    <div>
+      <div class="card-body text-center">
+        <h5 class="card-title">MANUFACTURER 1</h5>
+        <p class="card-text ">Small Decorative Obelisk</p>
+        <div class="pb-1" >
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+        </div>
+      
+        <div>
+         <div class="">
+           <span class="text-decoration-line-through me-1"
+            >20000$ </span>
+           <span class="me-1" style="color: red; font-weight: bold"
+            >1800 $ </span>
+           <span  style="background-color: rgb(128, 29, 29); width: 350px; color: aliceblue ; padding-left: 2%; padding-right: 2%;"
+            >-10% </span>
+          </span>
+         </div>
+         <div>
+          <span>Availibility :</span>
+          <span class="fw-bold" style="color: rgb(132, 132, 133)">899 In Stock</span>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card " style="width: 300px; border: none;">
+      <img src="/Picture/asset 8.jpeg" class="card-img-top  " alt="...">
+      <div>
+        <div class="card-body text-center">
+          <h5 class="card-title">MANUFACTURER 2</h5>
+          <p class="card-text ">3 Layer Lucky Bamboo Terrarium</p>
+          <div class="pb-1" >
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          </div>
+        
+          <div>
+           <div class="">
+             <span class="text-decoration-line-through me-1"
+              >20000$ </span>
+             <span class="me-1" style="color: red; font-weight: bold"
+              >1800 $ </span>
+             <span  style="background-color: rgb(128, 29, 29); width: 350px; color: aliceblue ;padding-left: 2%; padding-right: 2%;"
+              >-10% </span>
+            </span>
+           </div>
+           <div>
+            <span>Availibility :</span>
+            <span class="fw-bold" style="color: rgb(132, 132, 133)">899 In Stock</span>
+           </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col">
+    <div class="card " style="width: 300px; border: none;">
+      <img src="/Picture/asset 9.jpeg" class="card-img-top  " alt="...">
+      <div>
+        <div class="card-body text-center">
+          <h5 class="card-title">MANUFACTURER 3</h5>
+          <p class="card-text ">Self Watering Mini Rail Planter</p>
+          <div class="pb-1" >
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          </div>
+        
+          <div>
+           <div class="">
+             <span class="text-decoration-line-through me-1"
+              >20000$ </span>
+             <span class="me-1" style="color: red; font-weight: bold"
+              >1800 $ </span>
+             <span  style="background-color: rgb(128, 29, 29); width: 350px; color: aliceblue ;padding-left: 2%; padding-right: 2%;"
+              >-10% </span>
+            </span>
+           </div>
+           <div>
+            <span>Availibility :</span>
+            <span class="fw-bold" style="color: rgb(132, 132, 133)">899 In Stock</span>
+           </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col">
+    <div class="card " style="width: 300px; border: none;">
+      <img src="/Picture/asset 21.jpeg" class="card-img-top  " alt="...">
+      <div>
+        <div class="card-body text-center">
+          <h5 class="card-title">MANUFACTURER 4</h5>
+          <p class="card-text ">Small Decorative Obelisk</p>
+          <div class="pb-1" >
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+            <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          </div>
+        
+          <div>
+           <div class="">
+             <span class="text-decoration-line-through me-1"
+              >20000$ </span>
+             <span class="me-1" style="color: red; font-weight: bold"
+              >1800 $ </span>
+             <span  style="background-color: rgb(128, 29, 29); width: 350px; color: aliceblue ;padding-left: 2%; padding-right: 2%;"
+              >-10% </span>
+            </span>
+           </div>
+           <div>
+            <span>Availibility :</span>
+            <span class="fw-bold" style="color: rgb(132, 132, 133)">899 In Stock</span>
+           </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+  
+</div>
+
+<!-- 5Th pera  -->
+<div class="row row-cols-1 row-cols-md-2 g-4 container-fluid flowers-2nd pt-5 pb-3">
+  <div class="col flowers-2nd">
+    <div class="card">
+      <img src="/Picture/asset 30.jpeg" class="card-img-top" alt="...">
+      
+    </div>
+  </div>
+  <div class="col flowers-2nd">
+    <div class="card">
+      <img src="/Picture/asset 31.jpeg" class="card-img-top" alt="...">
+     
+    </div>
+  </div>
+ 
+</div>
+
+<!-- 6th pera  -->
+<h5 class="text-center pt-5 fst-italic fs-4 fw-bold" > The Most Trendy <br> 
+  <span style="color: rgb(30, 158, 30); " class="fw-bold fs-2"> Bestseller Product</span>  
+</h5>
+
+<div class="d-flex pt-5 ps-5 container trendy-card " >
+  <div class="d-flex " style="border-right :1px solid green" >
+    <div>
+<img style="height: 150px; " src="/Picture/asset 10.jpeg" alt="">
+    </div>
+    <div>
+      <div class="card-body text-center " >
+        <h6 class="card-title">MANUFACTURER 5</h6>
+        <p class="card-text ">Small Decorative Obelisk</p>
+        <div class="pb-1" >
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="d-flex " style="border-right :1px solid green" >
+    <div>
+<img style="height: 150px; " src="/Picture/asset 23.jpeg" alt="">
+    </div>
+    <div>
+      <div class="card-body text-center">
+        <h6 class="card-title">MANUFACTURER 5</h6>
+        <p class="card-text ">Small Decorative Obelisk</p>
+        <div class="pb-1" >
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="d-flex "  >
+    <div>
+<img style="height: 150px; " src="/Picture/asset 29.jpeg" alt="">
+    </div>
+    <div>
+      <div class="card-body text-center" >
+        <h6 class="card-title">MANUFACTURER 5</h6>
+        <p class="card-text ">Small Decorative Obelisk</p>
+        <div class="pb-1" >
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+</div>
+<div class="d-flex pt-5 ps-5 container pb-5 trendy-card"   >
+  <div class="d-flex "style="border-right :1px solid green" >
+    <div>
+<img style="height: 150px; " src="/Picture/asset 6.jpeg" alt="">
+    </div>
+    <div style="height: 150px; ">
+      <div class="card-body text-center">
+        <h6 class="card-title">MANUFACTURER 5</h6>
+        <p class="card-text ">Small Decorative Obelisk</p>
+        <div class="pb-1" >
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="d-flex " style="border-right :1px solid green" >
+    <div>
+<img style="height: 150px; " src="/Picture/asset 21.jpeg" alt="">
+    </div>
+    <div>
+      <div class="card-body text-center">
+        <h6 class="card-title">MANUFACTURER 5</h6>
+        <p class="card-text ">Small Decorative Obelisk</p>
+        <div class="pb-1" >
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="d-flex "  >
+    <div>
+<img style="height:150px" src="/Picture/asset 24.jpeg" alt="">
+    </div>
+    <div>
+      <div class="card-body text-center" >
+        <h6 class="card-title">MANUFACTURER 5</h6>
+        <p class="card-text ">Small Decorative Obelisk</p>
+        <div class="pb-1" >
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+          <i class="fa-solid fa-star" style="color: #f4d50b;"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+<!-- 7th pera  -->
+<div class="w-100 d-flex  pt-5 clients-love" style=" background-color: #dbf8cb;">
+  <div id="carouselExampleControls" class="carousel slide w-50 clients-love" data-bs-ride="carousel">
+    <h5 class="text-center pt-5">We Love Our Clients  </h5 >  <h4  class="fst-italic fw-bold pb-5"    style="color: rgb(36, 108, 36); text-align: center;"  >What They are Saying </h4>
+    <div class="carousel-inner">
+      <div class="carousel-item active text-center">
+        <img  src="/Picture/asset 32.png" class=" w-25" alt="...">
+        <p >All Perfect !! I have three sites with prestashop, <br>this theme is the best !! Excellent support , advice theme installation package , <br>sorry for English, are Italian but I had no problem ! ! <br>! Thank you !</p>
+        <p ><i class="fa-solid fa-quote-left fs-2 " style="color: #31511f; "></i> Standy Switch  <br> Customer </p>
+          
+
+      </div>
+      <div class="carousel-item  text-center">
+        <img  src="/Picture/asset 33.png" class=" w-25" alt="...">
+        <p >All Perfect !! I have three sites with prestashop, <br>this theme is the best !! Excellent support , advice theme installation package , <br>sorry for English, are Italian but I had no problem ! ! <br>! Thank you !</p>
+        <p ><i class="fa-solid fa-quote-left fs-2 " style="color: #31511f; "></i> Standy Switch  <br> Customer </p>
+          
+
+      </div>
+      <div class="carousel-item  text-center">
+        <img  src="/Picture/asset 34.png" class=" w-25" alt="...">
+        <p >All Perfect !! I have three sites with prestashop, <br>this theme is the best !! Excellent support , advice theme installation package , <br>sorry for English, are Italian but I had no problem ! ! <br>! Thank you !</p>
+        <p ><i class="fa-solid fa-quote-left fs-2 " style="color: #31511f; "></i> Standy Switch  <br> Customer </p>
+          
+
+      </div>
+    </div>
+    <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon rounded-pill"  style="background-color: #066c41 !important;" aria-hidden="true"></span>
+      <span class="visually-hidden "  >Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon rounded-pill" style="background-color: #066c41 !important;" aria-hidden="true"></span>
+      <span class="visually-hidden" >Next</span>
+    </button>
+  </div>
+  
+      <div class="w-50 clients-love " >
+        <h5 class="text-center pt-5">From our Blogs </h5 >  <h4  class="fst-italic fw-bold pb-5"    style="color: rgb(36, 108, 36); text-align: center;"  >Latest Blogs </h4>
+        
+          <div class="w-100 d-flex " >
+              <div class="w-50 text-end" > <img class="w-75 clients-love" src="/Picture/asset 37.jpeg" alt=""></div>
+          <div class="w-50 ps-3 " >
+              <p>This is Second post for blog <br>
+                  <i class="fa-sharp fa-regular fa-calendar"></i> 12:25:25 
+                 </p>
+          </div>
+          </div>
+          <div class="w-100 d-flex " >
+              <div class="w-50 text-end" > <img class="w-75 pt-2 clients-love" src="/Picture/asset 38.jpeg" alt=""></div>
+          <div class="w-50 ps-3 " >
+              <p>This is Second post for blog <br>
+                  <i class="fa-sharp fa-regular fa-calendar"></i> 12:25:25 
+                 </p>
+          </div>
+          </div>
+      </div>
+     
+  </div>
+</div>
+  <!-- 8th pera  -->
+
+<!-- footer  -->
+
+  <div>
+    <div class="d-flex footer-card" style="background-color: #066c41; padding: 50px 5% 20px 5%; justify-content: space-between; color: aliceblue; " >
+ 
+  <div>
+    <h5 class="fw-bold "> Information</h5>
+     <br> Delivery <br> About Us <br> Secure Payment <br> Contact Us <br>
+    </div>
+    <div>
+    <h5 class="fw-bold"> Custom Links</h5>
+      <br>Legal Notice <br> Price Drop <br> New Products <br> Best Sales <br>
+    </div>
+    <div>
+    <h5 class="fw-bold"> Categories</h5>
+      <br> Bonsai Plants <br> Flowering Plants <br> Indoor Plants <br> Outdoor Plants <br>
+    </div>
+    <div> 
+     <h5 class="fw-bold pb-3"> Opening Time</h5>
+      Mon - Fri : 8AM-10PM <br>Sat : 9AM-8PM <br>Sunday Closed<br>
+   
+      
+   </div>
+ 
+
+  </div>
+  
+
+  </div>
+  <div style="background-color: #066c41;text-align: center; padding-bottom: 25px;  padding-top: 20px;">
+    <i class="fa-brands fa-facebook-messenger fa-beat-fade ps-5 fs-4" style="color: #eaeeea;"></i> </i> <i class="fa-brands fa-twitter fa-beat-fade ps-5 fs-4" style="color: #eaeeea;"></i>  <i class="fa-brands fa-instagram fa-beat ps-5 fs-4" style="color: #eaeeea;"></i> <i class="fa-brands fa-facebook fa-beat-fade ps-5 fs-4" style="color: #eaeeea;"></i>
+  </div>
+
+
+ 
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+</html>
